@@ -13,23 +13,26 @@ Telegram-бот для ежедневной отправки случайных 
 
 ## Структура проекта
 shad_bot/
-├── data/
-│ └── 2021/
-│ ├── var_1/
-│ │ ├── 21_1_1.jpg
-│ │ ├── 21_1_2.jpg
-│ │ └── solver.txt
-│ └── var_2/
-├── pycache/
-├── .env
-├── .gitignore
-├── bot.py
-├── config.py
-├── database.py
-├── readme.md
-├── requirements.txt
-├── shad_bot.db
-└── task_scanner.py
+│
+├── data/                    # Директория с данными
+│   └── 2021/               # Данные за 2021 год
+│       ├── var_1/          # Вариант 1
+│       │   ├── 21_1_1.jpg  # Изображение 1
+│       │   ├── 21_1_2.jpg  # Изображение 2
+│       │   └── solver.txt  # Файл с решениями
+│       └── var_2/          # Вариант 2
+│
+├── __pycache__/            # Кэш Python (автогенерируется)
+│
+├── .env                    # Переменные окружения
+├── .gitignore              # Игнорируемые файлы Git
+├── bot.py                  # Основной файл бота
+├── config.py               # Конфигурация
+├── database.py             # Работа с базой данных
+├── readme.md               # Документация
+├── requirements.txt        # Зависимости Python
+├── shad_bot.db            # База данных SQLite
+└── task_scanner.py         # Сканер задач
 
 ## Установка и настройка
 
