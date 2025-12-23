@@ -39,7 +39,8 @@ shad_bot/
 ### 1. Клонирование репозитория
 ```bash
 git clone <ваш-репозиторий>
-cd shad_bot
+cd shad_tasks_bot
+
 ```
 ### 2. Установка зависимостей
 ```bash
